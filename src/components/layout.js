@@ -30,6 +30,11 @@ const Layout = ({ pageTitle, pageHeading, children }) => {
               Contact
             </Link>
           </li>
+          <li className={navLinkItem}>
+            <Link to="/viewer" className={navLinkText}>
+              Viewer
+            </Link>
+          </li>
         </ul>
       </nav>
       <h1 className={heading}>{pageHeading}</h1>

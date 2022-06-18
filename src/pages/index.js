@@ -7,7 +7,12 @@ const Homepage = () => {
   return (
     <Layout pageTitle="Home" pageHeading="Welcome to my homepage">
       <p>This is an image of protein!</p>
-      <StaticImage src="../images/fancyProtein.png" alt="A fancy Protein" />
+      <StaticImage
+        src="../images/fancyProtein.png"
+        alt="A fancy Protein"
+        loading="eager"
+        layout="fullWidth"
+      />
       <StaticImage src="../images/Myoglobin.png" alt="Structure of Myoglobin" />
     </Layout>
   );

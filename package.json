@@ -15,12 +15,16 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@n1ru4l/use-async-effect": "1.4.0",
     "gatsby": "^4.16.0",
     "gatsby-plugin-image": "^2.16.1",
     "gatsby-plugin-sharp": "^4.16.1",
     "gatsby-source-filesystem": "^4.16.0",
     "gatsby-transformer-sharp": "^4.16.0",
+    "ngl": "^0.10.4",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "react-ngl": "^0.2.3",
+    "three": "^0.141.0"
   }
 }
