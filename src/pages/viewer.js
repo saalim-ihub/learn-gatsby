@@ -71,11 +71,6 @@ const Viewer = () => {
       <br />
       <h3>Load your Receptor</h3>
       <br />
-      <input
-        type="file"
-        id="receptor"
-        accept=".pdb,.cif,.ent,.gz,.mol2,.sdf,.pdbqt,.mol"
-      ></input>
       <Stage width="600px" height="400px">
         <Component path="rcsb://3qme" reprList={reprLists[reprName]} />
       </Stage>
